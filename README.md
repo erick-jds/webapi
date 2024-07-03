@@ -1,5 +1,5 @@
 # Este é meu esboço inicial do projeto webapi
-### Foi usado arquitetura MVC (Controllers, Dtos, Models, Services), funcões específicas foram separadas em blocos memores para Manter clareza no código como: ProdutoExists em ProdutoController, DataBaseMigrationService em Services.
+### Foi usado arquitetura MVC (Controllers, Dtos, Models, Services), funcões específicas foram separadas em blocos menores para Manter clareza no código como: ProdutoExists em ProdutoController, DataBaseMigrationService em Services.
 
 ## Requerimentos
 ### Instalações iniciais do projeto: dotnet ef tools + webapi + EntityFrameworkCore
