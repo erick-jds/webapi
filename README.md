@@ -22,7 +22,7 @@ dotnet ef database update
 ```
 
 ## 2) Webapi
-### Exercute o webapi manualmente
+### Execute o webapi manualmente
 ```shell
 dotnet watch run
 ```
