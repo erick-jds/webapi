@@ -26,32 +26,31 @@ dotnet ef database update
 dotnet watch run
 ```
 
-## Configurações Docker em progresso
+# Configurações Docker em progresso
 ### Subir docker containers
 ```shell
 docker-compose up --build
 ```
 
-## Subir sqlserver docker container
+### Subir sqlserver docker container
 ```shell
 docker-compose up -d sqlserver
 ```
 
-# 2) Database
-## Entre no sqlserver container
+## 2) Database
+### Entre no sqlserver container
 ```shell
 docker-compose exec sqlserver /bin/bash
 ```
 
-## Liste all databases
+### Liste all databases
 ```sql
 SHOW DATABASES;
 ```
 
-## Crie *webapi* database
+### Crie *webapi* database
 ```sql
 CREATE DATABASE webapi;
 ```
-
 
 # :) Thanks!
